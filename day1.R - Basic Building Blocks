@@ -1,0 +1,20 @@
+#creating a variable
+x <- 5+7
+
+#creating a vector
+c(1.1, 9, 3.4)
+
+#storing vector in a variable
+z <- c(1.1, 9, 3.4)
+
+#combining vectors
+c(z, 67, z)
+
+#multiplying a vector
+z * 2 + 100
+##this will multiply the vectors numbers by 2 and add 100 to each number
+
+#taking a sqrt of variable and creating new variable
+my_sqrt <- sqrt(z - 1)
+
+#to cycle to previous commands use up arrow key
