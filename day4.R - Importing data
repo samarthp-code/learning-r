@@ -1,0 +1,15 @@
+#creating a variable for the data
+# this is for CSV
+data 1 <- read.csv(file.choose(),header=TRUE) #header set to true means the first row of our data set are headers
+
+# for txt
+data 2 <- read.delim(file.choose(),header=TRUE)
+
+#checking data in txt
+data 3 <- read.table(file.choose(),header=T, sep="/t")
+
+#removing data from R workspace
+rm(Data1)
+
+#seeing names in data
+names(data1)
